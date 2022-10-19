@@ -1,4 +1,4 @@
-let num=17;
+let num=15;
 let count=0;
 for(let i=1;i<=num;i++){
   if(num%i==0){
@@ -7,7 +7,7 @@ for(let i=1;i<=num;i++){
 }
 
 if(count==2){
-  console.log('Prime');
+  console.log('Prime Number');
 }else{
-  console.log('not prime');
+  console.log('Not Prime Number');
 }
